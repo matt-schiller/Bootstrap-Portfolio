@@ -4,50 +4,77 @@
 	<title>About | mdschiller - Matt Schiller</title>
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-	<div class="header">
-		<div class="container">
-			<a href="index.html">
-				<div class="logo">Matt Schiller</div>
-			</a>
-			<div class="navlink-block">
-				<a href="index.html" class="navlink">About</a>
-				<a href="portfolio.html" class="navlink">Portfolio</a>
-				<a href="contact.html" class="navlink">Contact</a>
-			</div>
-		</div>
-	</div>
-	<div class="section">
-		<div class="container">
-			<div class="pane left-pane">
-				<h1>About Me</h1>
-				<hr>
-				<img class="inline-image" src="assets/images/matt.jpg">
-				<p>I am a medical doc turned McKinsey consultant turned startup founder and frontend hacker. I am the co-founder of Snappr, the YCombinator-backed on-demand marketplace for pro photography. Formerly CEO of GownTown, Australia's largest online graduation retailer.</p>
-				<p>I was previously a Consultant at McKinsey and Company, where my work was on strategy in consumer goods, healthcare, telecommunications/technology and education, with a particular focus on young and high-growth companies. My particular areas of expertise are portfolio strategy, pricing, customer segmentation strategy, sales force design, and marketing strategy.</p>
-				<p>I am a medicine and philosophy graduate of the University of New South Wales (UNSW), where I have been a tutor and lecturer, Assistant Dean of a residential college, and a researcher in neurosurgery. I am the founder of the Australian Medical Student Journal, a not-for-profit academic publication, and was the manager of EasyChem, a free online resource for HSC Chemistry students.</p>
-			</div>
-			<div class="pane right-pane">
-				<h2>Connect with Me</h2>
-				<hr>
-				<div class="icon-block">
-					<a href="https://github.com/matt-schiller" target="_blank">
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Matt Schiller</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="index.html">About</a></li>
+	       	<li><a href="portfolio.html">Portfolio</a></li>
+	        <li><a href="contact.html">Contact</a></li>
+
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<div class="container">
+		<div class="row">
+		  <div class="col-xs-12 col-md-8">
+		  	<h1>About Me</h1>
+			<hr>
+			<img class="inline-image" src="assets/images/matt.jpg">
+			<p>I am a medical doc turned McKinsey consultant turned startup founder and frontend hacker. I am the co-founder of Snappr, the YCombinator-backed on-demand marketplace for pro photography. Formerly CEO of GownTown, Australia's largest online graduation retailer.</p>
+			<p>I was previously a Consultant at McKinsey and Company, where my work was on strategy in consumer goods, healthcare, telecommunications/technology and education, with a particular focus on young and high-growth companies. My particular areas of expertise are portfolio strategy, pricing, customer segmentation strategy, sales force design, and marketing strategy.</p>
+			<p>I am a medicine and philosophy graduate of the University of New South Wales (UNSW), where I have been a tutor and lecturer, Assistant Dean of a residential college, and a researcher in neurosurgery. I am the founder of the Australian Medical Student Journal, a not-for-profit academic publication, and was the manager of EasyChem, a free online resource for HSC Chemistry students.</p>
+		  </div>
+		  <div class="col-xs-12 col-md-4">
+		  	<h2>Connect with Me</h2>
+		  	<hr>
+				<div class="row">
+				  <div class="col-xs-2 col-md-4">
+				    <a href="https://github.com/matt-schiller" class="thumbnail">
 						<img class="icon" src="assets/images/logo-github.svg">
-					</a>
-					<a href="https://www.linkedin.com/in/mdschiller/" target="_blank">
+				    </a>
+				  </div>
+				<div class="col-xs-2 col-md-4">
+				    <a href="https://www.linkedin.com/in/mdschiller/" class="thumbnail">
 						<img class="icon" src="assets/images/logo-linkedin.svg">
-					</a>
-					<a href="https://stackoverflow.com/users/8827653/mdschiller" target="_blank">
+				    </a>
+				  </div>
+				<div class="col-xs-2 col-md-4">
+				    <a href="https://stackoverflow.com/users/8827653/mdschiller" class="thumbnail">
 						<img class="icon" src="assets/images/logo-stackoverflow.svg">
-					</a>
+				    </a>
+				  </div>    
+				 
 				</div>
+
 			</div>
 		</div>
 	</div>
-	<div class="footer">
-		<div class="footer-text">© Copyright 2017, Matt Schiller</div>
-	</div>
+
+<div class="footer navbar-fixed-bottom" style="background-color:ghostwhite; padding:15px; text-align:center;">
+      <div class="container">
+        <p class="center">(c) 2017 Matt Schiller</p>
+      </div>
+    </div>
+	</footer>
 </body>
 </html>
